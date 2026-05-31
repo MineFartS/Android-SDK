@@ -1,0 +1,1 @@
+(1..10 | ForEach-Object {"y"}) | ."$PSScriptRoot\cmdline-tools\latest\bin\sdkmanager.bat" --licenses
